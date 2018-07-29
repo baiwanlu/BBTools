@@ -1,0 +1,6 @@
+framework module BBTools {
+  umbrella header "BBTools-umbrella.h"
+
+  export *
+  module * { export * }
+}

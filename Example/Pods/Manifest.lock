@@ -1,0 +1,16 @@
+PODS:
+  - BBTools (0.1.0)
+
+DEPENDENCIES:
+  - BBTools (from `../`)
+
+EXTERNAL SOURCES:
+  BBTools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BBTools: f27fa13a6d3016ba78d354576880621f7f1b3968
+
+PODFILE CHECKSUM: 67854ebdd5428ce21c076943cb7e96afcf27c20d
+
+COCOAPODS: 1.5.3

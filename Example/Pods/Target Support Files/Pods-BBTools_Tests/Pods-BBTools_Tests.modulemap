@@ -1,0 +1,6 @@
+framework module Pods_BBTools_Tests {
+  umbrella header "Pods-BBTools_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
