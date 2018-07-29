@@ -62,7 +62,7 @@
 		66C1DE8EFF594CF269288A64 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B4F7F9800A92714AE6F38E23 /* BBTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BBTools.podspec; path = ../BBTools.podspec; sourceTree = "<group>"; };
+		B4F7F9800A92714AE6F38E23 /* BBTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BBTools.podspec; path = ../BBTools.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CDA221237518FE617401A664 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		DCE60A1AD9E64A94A762A4F5 /* Pods_BBTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BBTools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E371764B5DE65567E338F742 /* Pods-BBTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBTools_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BBTools_Example/Pods-BBTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
