@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BBTools_Example' do
+  pod 'BBTools', :path => '../'
+
+  target 'BBTools_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
