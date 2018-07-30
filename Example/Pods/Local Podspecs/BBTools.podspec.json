@@ -1,7 +1,7 @@
 {
   "name": "BBTools",
   "version": "0.1.0",
-  "summary": "A short description of BBTools.",
+  "summary": "BBTools.工具类",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/baiwanlu/BBTools",
   "license": {
@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "BBTools/Classes/**/*"
+  "source_files": "BBTools/Classes/**/*",
+  "dependencies": {
+    "MGJRouter": [
+
+    ]
+  }
 }

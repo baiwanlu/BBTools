@@ -7,34 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		399D11163ABACF9DA9A0C50277B94202 /* BBTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC2FCD6064232965D7DD40D3BD8D20F /* BBTools-dummy.m */; };
-		4AB33CB2C92FFF69E5965C8AA10A68F7 /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E26077E738F7414C64E1AE017471B157 /* MainVC.m */; };
-		517CBE4EBAFC9B3741E0E43C90F3AA5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		543338AD47AC41D9312BF2BB26714203 /* Pods-BBTools_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6034BEBE780503F5215737A90717E5D1 /* Pods-BBTools_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5A6F1FF65CD02A274F4A793D1733DAA5 /* Pods-BBTools_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B3697C5038BA40EA2338726CC52F69 /* Pods-BBTools_Example-dummy.m */; };
+		203C791EB60A547D2CA34574B428530E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB46182E60FAFC6BC61D81455119867 /* Foundation.framework */; };
+		238BD2BD0FBF40F8956B64A42F3E6032 /* MainVC.h in Headers */ = {isa = PBXBuildFile; fileRef = D50A3BCD60ADFC5E4BD4B64CF53D26C6 /* MainVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73374398240FEE462F2C3BC02F8D2BD1 /* MGJRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E374B42B38DACC2ADA241AE3CEEF284 /* MGJRouter-dummy.m */; };
 		7A81DB169AD3298F12B4333C4B1D49CA /* Pods-BBTools_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76DF8FEF5F6DF7D38146B3B4D3579EBD /* Pods-BBTools_Tests-dummy.m */; };
-		7B55DC82E845A9AD34AF846AA1A34A83 /* MainVC.h in Headers */ = {isa = PBXBuildFile; fileRef = D50A3BCD60ADFC5E4BD4B64CF53D26C6 /* MainVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		884FD22830983DC357897149486A1CFF /* BBTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB09052E6A6291AEC613E0DA58FC7124 /* BBTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		89A352E3D05FAEE5C9C58033861D8438 /* Pods-BBTools_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7439C13E2A5C2130D5A0E2F46410F2CE /* Pods-BBTools_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		987FE7B9F7C853C07FDEE260EC33F5D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		ACA21011E1A5D389D556E9572CED5525 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC32D626EC5A7166B2436D8FB703276 /* ReplaceMe.m */; };
-		EFDB2EECCA89FBEF6DF8D09098844B2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		9649977C8D4B7ACEE80DEFCB646B6443 /* MGJRouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E815EE460C4A8B7A875A52A310B6FD12 /* MGJRouter.framework */; };
+		A0D23ABFC92D4CD939B2EC88374F1855 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB46182E60FAFC6BC61D81455119867 /* Foundation.framework */; };
+		B4BC7B341FEC94415EA2CAB6E3B4EDB8 /* BBTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC2FCD6064232965D7DD40D3BD8D20F /* BBTools-dummy.m */; };
+		B6C9AE23F3BB70080606303925B171CF /* Pods-BBTools_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6034BEBE780503F5215737A90717E5D1 /* Pods-BBTools_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE5E191DA82D0F7313FC0DEED8E4CEF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB46182E60FAFC6BC61D81455119867 /* Foundation.framework */; };
+		C9165D44D8217F0989B61BC7502E8A77 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC32D626EC5A7166B2436D8FB703276 /* ReplaceMe.m */; };
+		CC8CCE394D915E137FBE2AEAFDB835F1 /* MGJRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 26641E0A1922975091D2B3BF4F7EBD1B /* MGJRouter.m */; };
+		D40F41993911FF3F28FF44FDD03360C1 /* MGJRouter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AB1BF69A99551E794529F80F0156577 /* MGJRouter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8DD8676CEC4F7741409B6EAD6ECFFBD /* MGJRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = C7AD52F0C96F0CB9A51A315BE6E9DEF0 /* MGJRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E354BF76DB10AD0DC66C016D8F8F2B6B /* Pods-BBTools_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B3697C5038BA40EA2338726CC52F69 /* Pods-BBTools_Example-dummy.m */; };
+		EFDB2EECCA89FBEF6DF8D09098844B2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB46182E60FAFC6BC61D81455119867 /* Foundation.framework */; };
+		F72D872C2F04AD5DD4BB51AC4662EE33 /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E26077E738F7414C64E1AE017471B157 /* MainVC.m */; };
+		FC03A05ECF3DE4520E9CD75AAFE1C28A /* BBTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB09052E6A6291AEC613E0DA58FC7124 /* BBTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		02D634909FBB9BC171680D2DC3FC3D63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C89F35FBEB53210C0D022F00D7BDC56D;
+			remoteInfo = MGJRouter;
+		};
 		12FDBC3E131BD892D2DB1BAE9EC6F171 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0D0B3EAE18DE518E29DCE155C9C88151;
+			remoteGlobalIDString = FCE52B473E792318ECE136B986A22C9D;
 			remoteInfo = "Pods-BBTools_Example";
 		};
-		D48B7A5F4877AE8FE57933B02DC3630D /* PBXContainerItemProxy */ = {
+		908A64712221EAB26945C4EFCB94C1F5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 94FDF2C4027E72B5B143C0D9664D8C12;
+			remoteGlobalIDString = 155BEE19AE8C21B13AB04BAB00770C53;
 			remoteInfo = BBTools;
+		};
+		DFE5D76903C8D93B1AF10F96E6DCD839 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C89F35FBEB53210C0D022F00D7BDC56D;
+			remoteInfo = MGJRouter;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -45,19 +65,25 @@
 		0B66BD3EC2969370DC89EADD99655F84 /* Pods-BBTools_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BBTools_Tests.modulemap"; sourceTree = "<group>"; };
 		0CC32D626EC5A7166B2436D8FB703276 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = BBTools/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		0CC4629B79178F4504F2C23B1C908EEA /* Pods-BBTools_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BBTools_Tests-resources.sh"; sourceTree = "<group>"; };
+		0E374B42B38DACC2ADA241AE3CEEF284 /* MGJRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MGJRouter-dummy.m"; sourceTree = "<group>"; };
 		0EF187405EF59668C6DF5B4EB4E073F0 /* Pods-BBTools_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BBTools_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		1E62C4AFE64AFDC029A693E9F6DA232D /* BBTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BBTools.xcconfig; sourceTree = "<group>"; };
+		26641E0A1922975091D2B3BF4F7EBD1B /* MGJRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGJRouter.m; path = MGJRouter/MGJRouter.m; sourceTree = "<group>"; };
+		278BE48F02B505781010A394B5D1586B /* BBTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BBTools.framework; path = BBTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28B389597652209302174C01F20C0E07 /* BBTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BBTools-prefix.pch"; sourceTree = "<group>"; };
 		2D05F37E2060FA6FFD2F7DC93939B224 /* Pods-BBTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BBTools_Example.release.xcconfig"; sourceTree = "<group>"; };
 		427DA823347810916518E6C56E00774C /* Pods-BBTools_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BBTools_Example-frameworks.sh"; sourceTree = "<group>"; };
-		498DD0B45796DDFB938D0594ECC77E0D /* Pods_BBTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BBTools_Tests.framework; path = "Pods-BBTools_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A1D90884C39612C9385D1DB738795BF /* Pods-BBTools_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BBTools_Example-resources.sh"; sourceTree = "<group>"; };
+		4BB4A0F7ECDB1D47D7969F8953A1B8B6 /* Pods_BBTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BBTools_Tests.framework; path = "Pods-BBTools_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CC2FCD6064232965D7DD40D3BD8D20F /* BBTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BBTools-dummy.m"; sourceTree = "<group>"; };
+		5320E45EB25C82F857139B42BCF737D4 /* MGJRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MGJRouter.framework; path = MGJRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5937B5F75353B35FCC6F4B387B6A53CF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5AB46182E60FAFC6BC61D81455119867 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5B8198CA2352D4EF598B91AABDCC164A /* Pods_BBTools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BBTools_Example.framework; path = "Pods-BBTools_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F9F01B5413AC0259BDDBD5719E89E37 /* Pods-BBTools_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BBTools_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6034BEBE780503F5215737A90717E5D1 /* Pods-BBTools_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BBTools_Example-umbrella.h"; sourceTree = "<group>"; };
-		61930028DDD255CFD299959B3469E6D0 /* Pods_BBTools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BBTools_Example.framework; path = "Pods-BBTools_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6998103C7D039453D257541C34811785 /* MGJRouter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MGJRouter.xcconfig; sourceTree = "<group>"; };
+		6C70A34C0849C13993DA9A40E60C6D92 /* MGJRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGJRouter-prefix.pch"; sourceTree = "<group>"; };
 		7439C13E2A5C2130D5A0E2F46410F2CE /* Pods-BBTools_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BBTools_Tests-umbrella.h"; sourceTree = "<group>"; };
 		76DF8FEF5F6DF7D38146B3B4D3579EBD /* Pods-BBTools_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BBTools_Tests-dummy.m"; sourceTree = "<group>"; };
 		77E08E47C8224AC5BC0B01A8EF518CFB /* Pods-BBTools_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BBTools_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -66,16 +92,20 @@
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		957C4817A60A1739A35AEB3DD2BA8847 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A0B7A8C49FDAF0C0207C8909EFFE36B /* Pods-BBTools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BBTools_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9C749E6E2B2FE1D6D06106545341646B /* BBTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BBTools.framework; path = BBTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AB1BF69A99551E794529F80F0156577 /* MGJRouter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGJRouter-umbrella.h"; sourceTree = "<group>"; };
 		AE992EF835F2D614A227D9212C3C5024 /* Pods-BBTools_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BBTools_Example.modulemap"; sourceTree = "<group>"; };
 		B6B50BFA83C08DAE453AC1F746BC34A5 /* Pods-BBTools_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BBTools_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B7778AECB7E55644D0C455C53ED94A30 /* Pods-BBTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BBTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C55DE58747235637D878C296A4F62E45 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C564ED1E0AC4D05FDE71EC73142E6D61 /* Pods-BBTools_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BBTools_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C5B3697C5038BA40EA2338726CC52F69 /* Pods-BBTools_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BBTools_Example-dummy.m"; sourceTree = "<group>"; };
+		C7AD52F0C96F0CB9A51A315BE6E9DEF0 /* MGJRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGJRouter.h; path = MGJRouter/MGJRouter.h; sourceTree = "<group>"; };
 		D50A3BCD60ADFC5E4BD4B64CF53D26C6 /* MainVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MainVC.h; sourceTree = "<group>"; };
 		DB09052E6A6291AEC613E0DA58FC7124 /* BBTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BBTools-umbrella.h"; sourceTree = "<group>"; };
 		E26077E738F7414C64E1AE017471B157 /* MainVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MainVC.m; sourceTree = "<group>"; };
+		E815EE460C4A8B7A875A52A310B6FD12 /* MGJRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MGJRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF130C538ACAF9A9D4F0D5C86420435B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		EF2165895B4A22827F16B1B85D45034E /* MGJRouter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MGJRouter.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,19 +117,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B5F0D1EF3B83E17CB42C570F807EA789 /* Frameworks */ = {
+		D0535164084FFF0D69DC18B0E8CEB62C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				517CBE4EBAFC9B3741E0E43C90F3AA5A /* Foundation.framework in Frameworks */,
+				203C791EB60A547D2CA34574B428530E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E2E1A054ECE8100EEDE29BAD45A81537 /* Frameworks */ = {
+		E1804F1F51F1F8A7EC416C89120963A2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				987FE7B9F7C853C07FDEE260EC33F5D2 /* Foundation.framework in Frameworks */,
+				A0D23ABFC92D4CD939B2EC88374F1855 /* Foundation.framework in Frameworks */,
+				9649977C8D4B7ACEE80DEFCB646B6443 /* MGJRouter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF2B20179ABCF9D31C4960E5A5F00DEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE5E191DA82D0F7313FC0DEED8E4CEF9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,14 +173,13 @@
 			path = "Target Support Files/Pods-BBTools_Example";
 			sourceTree = "<group>";
 		};
-		49CB81E479D8DAF736CE1D5BAD388396 /* Products */ = {
+		42950006E75076EA3378DA90DE6959E6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9C749E6E2B2FE1D6D06106545341646B /* BBTools.framework */,
-				61930028DDD255CFD299959B3469E6D0 /* Pods_BBTools_Example.framework */,
-				498DD0B45796DDFB938D0594ECC77E0D /* Pods_BBTools_Tests.framework */,
+				E815EE460C4A8B7A875A52A310B6FD12 /* MGJRouter.framework */,
+				853001EC67E097EA497D57704151227B /* iOS */,
 			);
-			name = Products;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		5CE8C2ACBA9810730368EB17E9416A63 /* Pod */ = {
@@ -152,14 +190,6 @@
 				5937B5F75353B35FCC6F4B387B6A53CF /* README.md */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		73DB66288956527584588C9D00649542 /* Targets Support Files */ = {
@@ -176,10 +206,30 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				B97AC518280A6D1FDB0E1F0E1EE5CE04 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				49CB81E479D8DAF736CE1D5BAD388396 /* Products */,
+				42950006E75076EA3378DA90DE6959E6 /* Frameworks */,
+				B6493087EA70818C193B1D26BAF2A4D0 /* Pods */,
+				D8EA0244F2873A61A00EDB16A58596E1 /* Products */,
 				73DB66288956527584588C9D00649542 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		80F85B551319BCB16A1827B4AAB5EBD0 /* MGJRouter */ = {
+			isa = PBXGroup;
+			children = (
+				C7AD52F0C96F0CB9A51A315BE6E9DEF0 /* MGJRouter.h */,
+				26641E0A1922975091D2B3BF4F7EBD1B /* MGJRouter.m */,
+				AF5B12B509521977661489E9F824CD89 /* Support Files */,
+			);
+			name = MGJRouter;
+			path = MGJRouter;
+			sourceTree = "<group>";
+		};
+		853001EC67E097EA497D57704151227B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5AB46182E60FAFC6BC61D81455119867 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		A3355BD7D65AD19CAE3A8E6B34D3691B /* Support Files */ = {
@@ -208,20 +258,34 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
+		AF5B12B509521977661489E9F824CD89 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C55DE58747235637D878C296A4F62E45 /* Info.plist */,
+				EF2165895B4A22827F16B1B85D45034E /* MGJRouter.modulemap */,
+				6998103C7D039453D257541C34811785 /* MGJRouter.xcconfig */,
+				0E374B42B38DACC2ADA241AE3CEEF284 /* MGJRouter-dummy.m */,
+				6C70A34C0849C13993DA9A40E60C6D92 /* MGJRouter-prefix.pch */,
+				9AB1BF69A99551E794529F80F0156577 /* MGJRouter-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MGJRouter";
+			sourceTree = "<group>";
+		};
+		B6493087EA70818C193B1D26BAF2A4D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				80F85B551319BCB16A1827B4AAB5EBD0 /* MGJRouter */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B97AC518280A6D1FDB0E1F0E1EE5CE04 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
 				A49D019315B632651EF44023C5041E4B /* BBTools */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5E0D919E635D23B70123790B8308F8EF /* iOS */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		C393ACFFF5024177837B8292233A626C /* Pods-BBTools_Tests */ = {
@@ -242,15 +306,25 @@
 			path = "Target Support Files/Pods-BBTools_Tests";
 			sourceTree = "<group>";
 		};
+		D8EA0244F2873A61A00EDB16A58596E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				278BE48F02B505781010A394B5D1586B /* BBTools.framework */,
+				5320E45EB25C82F857139B42BCF737D4 /* MGJRouter.framework */,
+				5B8198CA2352D4EF598B91AABDCC164A /* Pods_BBTools_Example.framework */,
+				4BB4A0F7ECDB1D47D7969F8953A1B8B6 /* Pods_BBTools_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		606E1125D6E8C9CF39357461EB9DE931 /* Headers */ = {
+		5274AB0E467DD2812D4454B53D97A250 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				884FD22830983DC357897149486A1CFF /* BBTools-umbrella.h in Headers */,
-				7B55DC82E845A9AD34AF846AA1A34A83 /* MainVC.h in Headers */,
+				B6C9AE23F3BB70080606303925B171CF /* Pods-BBTools_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,33 +336,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB034D645B023B4A2BEC5E5EE06139B0 /* Headers */ = {
+		9C4543873A0A71E83CC7ECC9CE465098 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				543338AD47AC41D9312BF2BB26714203 /* Pods-BBTools_Example-umbrella.h in Headers */,
+				D40F41993911FF3F28FF44FDD03360C1 /* MGJRouter-umbrella.h in Headers */,
+				D8DD8676CEC4F7741409B6EAD6ECFFBD /* MGJRouter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE42904586DF429B482FB1FFE2462E52 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC03A05ECF3DE4520E9CD75AAFE1C28A /* BBTools-umbrella.h in Headers */,
+				238BD2BD0FBF40F8956B64A42F3E6032 /* MainVC.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0D0B3EAE18DE518E29DCE155C9C88151 /* Pods-BBTools_Example */ = {
+		155BEE19AE8C21B13AB04BAB00770C53 /* BBTools */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BABED71265BC58B1C0AF2C7ABCE86A9B /* Build configuration list for PBXNativeTarget "Pods-BBTools_Example" */;
+			buildConfigurationList = F945B3043C3692DA571C08A464F8F760 /* Build configuration list for PBXNativeTarget "BBTools" */;
 			buildPhases = (
-				03613A87EC0B8325FDF2171C1A274BC7 /* Sources */,
-				E2E1A054ECE8100EEDE29BAD45A81537 /* Frameworks */,
-				EB034D645B023B4A2BEC5E5EE06139B0 /* Headers */,
+				5914C204A4E63BF63DE92B5AE7C7381D /* Sources */,
+				E1804F1F51F1F8A7EC416C89120963A2 /* Frameworks */,
+				EE42904586DF429B482FB1FFE2462E52 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B49DFBAAC009E4574A034F75EC6A7DD8 /* PBXTargetDependency */,
+				F7C367853EA06DF47733E52852BD14B0 /* PBXTargetDependency */,
 			);
-			name = "Pods-BBTools_Example";
-			productName = "Pods-BBTools_Example";
-			productReference = 61930028DDD255CFD299959B3469E6D0 /* Pods_BBTools_Example.framework */;
+			name = BBTools;
+			productName = BBTools;
+			productReference = 278BE48F02B505781010A394B5D1586B /* BBTools.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		543049C5634A1CCC16EC1B2ABBC8FC43 /* Pods-BBTools_Tests */ = {
@@ -306,24 +390,43 @@
 			);
 			name = "Pods-BBTools_Tests";
 			productName = "Pods-BBTools_Tests";
-			productReference = 498DD0B45796DDFB938D0594ECC77E0D /* Pods_BBTools_Tests.framework */;
+			productReference = 4BB4A0F7ECDB1D47D7969F8953A1B8B6 /* Pods_BBTools_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		94FDF2C4027E72B5B143C0D9664D8C12 /* BBTools */ = {
+		C89F35FBEB53210C0D022F00D7BDC56D /* MGJRouter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 866FCE8D09D7E436C12EC69B0035252C /* Build configuration list for PBXNativeTarget "BBTools" */;
+			buildConfigurationList = 19C624E68A1869DE9F472E3B9A121EBC /* Build configuration list for PBXNativeTarget "MGJRouter" */;
 			buildPhases = (
-				034F866D32CFB05BC75BC65DCE35E54A /* Sources */,
-				B5F0D1EF3B83E17CB42C570F807EA789 /* Frameworks */,
-				606E1125D6E8C9CF39357461EB9DE931 /* Headers */,
+				B6FE6DA68C763A2991F85A025C4D22A2 /* Sources */,
+				FF2B20179ABCF9D31C4960E5A5F00DEA /* Frameworks */,
+				9C4543873A0A71E83CC7ECC9CE465098 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = BBTools;
-			productName = BBTools;
-			productReference = 9C749E6E2B2FE1D6D06106545341646B /* BBTools.framework */;
+			name = MGJRouter;
+			productName = MGJRouter;
+			productReference = 5320E45EB25C82F857139B42BCF737D4 /* MGJRouter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FCE52B473E792318ECE136B986A22C9D /* Pods-BBTools_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D4153E5688D1D693921348AFC09B7C7 /* Build configuration list for PBXNativeTarget "Pods-BBTools_Example" */;
+			buildPhases = (
+				5F22ABEA8CDA834F0CDE846EB4027040 /* Sources */,
+				D0535164084FFF0D69DC18B0E8CEB62C /* Frameworks */,
+				5274AB0E467DD2812D4454B53D97A250 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DE5BAEF96E1120E7A44B1E427332AB3 /* PBXTargetDependency */,
+				F38CCCC90107F2AF534BA82A1A81761A /* PBXTargetDependency */,
+			);
+			name = "Pods-BBTools_Example";
+			productName = "Pods-BBTools_Example";
+			productReference = 5B8198CA2352D4EF598B91AABDCC164A /* Pods_BBTools_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -343,33 +446,26 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 49CB81E479D8DAF736CE1D5BAD388396 /* Products */;
+			productRefGroup = D8EA0244F2873A61A00EDB16A58596E1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				94FDF2C4027E72B5B143C0D9664D8C12 /* BBTools */,
-				0D0B3EAE18DE518E29DCE155C9C88151 /* Pods-BBTools_Example */,
+				155BEE19AE8C21B13AB04BAB00770C53 /* BBTools */,
+				C89F35FBEB53210C0D022F00D7BDC56D /* MGJRouter */,
+				FCE52B473E792318ECE136B986A22C9D /* Pods-BBTools_Example */,
 				543049C5634A1CCC16EC1B2ABBC8FC43 /* Pods-BBTools_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		034F866D32CFB05BC75BC65DCE35E54A /* Sources */ = {
+		5914C204A4E63BF63DE92B5AE7C7381D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				399D11163ABACF9DA9A0C50277B94202 /* BBTools-dummy.m in Sources */,
-				4AB33CB2C92FFF69E5965C8AA10A68F7 /* MainVC.m in Sources */,
-				ACA21011E1A5D389D556E9572CED5525 /* ReplaceMe.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		03613A87EC0B8325FDF2171C1A274BC7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5A6F1FF65CD02A274F4A793D1733DAA5 /* Pods-BBTools_Example-dummy.m in Sources */,
+				B4BC7B341FEC94415EA2CAB6E3B4EDB8 /* BBTools-dummy.m in Sources */,
+				F72D872C2F04AD5DD4BB51AC4662EE33 /* MainVC.m in Sources */,
+				C9165D44D8217F0989B61BC7502E8A77 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,24 +477,147 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5F22ABEA8CDA834F0CDE846EB4027040 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E354BF76DB10AD0DC66C016D8F8F2B6B /* Pods-BBTools_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6FE6DA68C763A2991F85A025C4D22A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73374398240FEE462F2C3BC02F8D2BD1 /* MGJRouter-dummy.m in Sources */,
+				CC8CCE394D915E137FBE2AEAFDB835F1 /* MGJRouter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		0DE5BAEF96E1120E7A44B1E427332AB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BBTools;
+			target = 155BEE19AE8C21B13AB04BAB00770C53 /* BBTools */;
+			targetProxy = 908A64712221EAB26945C4EFCB94C1F5 /* PBXContainerItemProxy */;
+		};
 		13C6B0A60052F782000FB4B7E80B7B48 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-BBTools_Example";
-			target = 0D0B3EAE18DE518E29DCE155C9C88151 /* Pods-BBTools_Example */;
+			target = FCE52B473E792318ECE136B986A22C9D /* Pods-BBTools_Example */;
 			targetProxy = 12FDBC3E131BD892D2DB1BAE9EC6F171 /* PBXContainerItemProxy */;
 		};
-		B49DFBAAC009E4574A034F75EC6A7DD8 /* PBXTargetDependency */ = {
+		F38CCCC90107F2AF534BA82A1A81761A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = BBTools;
-			target = 94FDF2C4027E72B5B143C0D9664D8C12 /* BBTools */;
-			targetProxy = D48B7A5F4877AE8FE57933B02DC3630D /* PBXContainerItemProxy */;
+			name = MGJRouter;
+			target = C89F35FBEB53210C0D022F00D7BDC56D /* MGJRouter */;
+			targetProxy = DFE5D76903C8D93B1AF10F96E6DCD839 /* PBXContainerItemProxy */;
+		};
+		F7C367853EA06DF47733E52852BD14B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MGJRouter;
+			target = C89F35FBEB53210C0D022F00D7BDC56D /* MGJRouter */;
+			targetProxy = 02D634909FBB9BC171680D2DC3FC3D63 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		02B194706ED34DC34C77C9E59036789F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7778AECB7E55644D0C455C53ED94A30 /* Pods-BBTools_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BBTools_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BBTools_Example/Pods-BBTools_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		122E14D996B05AF53BE678B32914ED59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E62C4AFE64AFDC029A693E9F6DA232D /* BBTools.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BBTools/BBTools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BBTools/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BBTools/BBTools.modulemap";
+				PRODUCT_MODULE_NAME = BBTools;
+				PRODUCT_NAME = BBTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3E6523820427455E9409A91572A0FEF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6998103C7D039453D257541C34811785 /* MGJRouter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MGJRouter/MGJRouter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MGJRouter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MGJRouter/MGJRouter.modulemap";
+				PRODUCT_MODULE_NAME = MGJRouter;
+				PRODUCT_NAME = MGJRouter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		402074B16F5575A1B8CF427A76949A13 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9A0B7A8C49FDAF0C0207C8909EFFE36B /* Pods-BBTools_Tests.release.xcconfig */;
@@ -433,9 +652,9 @@
 			};
 			name = Release;
 		};
-		55E784324FB7CB6D81CDBD681E8458BB /* Debug */ = {
+		5EFA296D838B1BC0C9AC8F70FE04CF0F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E62C4AFE64AFDC029A693E9F6DA232D /* BBTools.xcconfig */;
+			baseConfigurationReference = 6998103C7D039453D257541C34811785 /* MGJRouter.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -446,14 +665,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BBTools/BBTools-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BBTools/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/MGJRouter/MGJRouter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MGJRouter/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BBTools/BBTools.modulemap";
-				PRODUCT_MODULE_NAME = BBTools;
-				PRODUCT_NAME = BBTools;
+				MODULEMAP_FILE = "Target Support Files/MGJRouter/MGJRouter.modulemap";
+				PRODUCT_MODULE_NAME = MGJRouter;
+				PRODUCT_NAME = MGJRouter;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -463,7 +682,7 @@
 			};
 			name = Debug;
 		};
-		6F2BB3C8288CDC623F5C1363B9D28E26 /* Release */ = {
+		728D41192A4380FD53EB34DC0DABB54D /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1E62C4AFE64AFDC029A693E9F6DA232D /* BBTools.xcconfig */;
 			buildSettings = {
@@ -493,39 +712,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		6F80B25058C0243C22712C3E7F766B36 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B7778AECB7E55644D0C455C53ED94A30 /* Pods-BBTools_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-BBTools_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BBTools_Example/Pods-BBTools_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		74733407C6B62BA35D94B4F91BAB0EFD /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -681,7 +867,7 @@
 			};
 			name = Release;
 		};
-		D872EB366A56873AE3BF3976BA4D6D0C /* Release */ = {
+		C913E1676AE6C11D5BB678B2BDF43184 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2D05F37E2060FA6FFD2F7DC93939B224 /* Pods-BBTools_Example.release.xcconfig */;
 			buildSettings = {
@@ -718,6 +904,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		19C624E68A1869DE9F472E3B9A121EBC /* Build configuration list for PBXNativeTarget "MGJRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EFA296D838B1BC0C9AC8F70FE04CF0F /* Debug */,
+				3E6523820427455E9409A91572A0FEF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -736,20 +931,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		866FCE8D09D7E436C12EC69B0035252C /* Build configuration list for PBXNativeTarget "BBTools" */ = {
+		7D4153E5688D1D693921348AFC09B7C7 /* Build configuration list for PBXNativeTarget "Pods-BBTools_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				55E784324FB7CB6D81CDBD681E8458BB /* Debug */,
-				6F2BB3C8288CDC623F5C1363B9D28E26 /* Release */,
+				02B194706ED34DC34C77C9E59036789F /* Debug */,
+				C913E1676AE6C11D5BB678B2BDF43184 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BABED71265BC58B1C0AF2C7ABCE86A9B /* Build configuration list for PBXNativeTarget "Pods-BBTools_Example" */ = {
+		F945B3043C3692DA571C08A464F8F760 /* Build configuration list for PBXNativeTarget "BBTools" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6F80B25058C0243C22712C3E7F766B36 /* Debug */,
-				D872EB366A56873AE3BF3976BA4D6D0C /* Release */,
+				122E14D996B05AF53BE678B32914ED59 /* Debug */,
+				728D41192A4380FD53EB34DC0DABB54D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

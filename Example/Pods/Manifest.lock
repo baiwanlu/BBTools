@@ -1,16 +1,23 @@
 PODS:
-  - BBTools (0.1.0)
+  - BBTools (0.1.0):
+    - MGJRouter
+  - MGJRouter (0.10.0)
 
 DEPENDENCIES:
   - BBTools (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MGJRouter
 
 EXTERNAL SOURCES:
   BBTools:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BBTools: f27fa13a6d3016ba78d354576880621f7f1b3968
+  BBTools: 0865ef8c09aa6afb572bb1f4f6bebd297de3cdb2
+  MGJRouter: 15d94541eb2cc81eff7d577337288feb7ae9575f
 
-PODFILE CHECKSUM: 67854ebdd5428ce21c076943cb7e96afcf27c20d
+PODFILE CHECKSUM: e11d18e80000223b3a990ed80262d459996b723e
 
 COCOAPODS: 1.5.3

@@ -7,6 +7,7 @@
 //
 
 #import "MainVC.h"
+#import <MGJRouter/MGJRouter.h>
 
 @interface MainVC ()
 
@@ -18,6 +19,15 @@
     [super viewDidLoad];
     self.title = @"主页";
     self.view.backgroundColor = [UIColor redColor];
+}
+// 在load方法中自动注册，在主工程中不用写任何代码。
++ (void)load {
+    [MGJRouter registerURLPattern:@"CTB://Main/PushMainVC" toHandler:^(NSDictionary *routerParameters) {
+        UINavigationController *navigationVC = routerParameters[MGJRouterParameterUserInfo][@"navigationVC"];
+        
+        MainVC *homePageVC = [[MainVC alloc] init];
+        [navigationVC pushViewController:homePageVC animated:YES];
+    }];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -341,10 +341,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-BBTools_Example/Pods-BBTools_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/BBTools/BBTools.framework",
+				"${BUILT_PRODUCTS_DIR}/MGJRouter/MGJRouter.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BBTools.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MGJRouter.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
